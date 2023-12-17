@@ -1,7 +1,7 @@
-// 漢字ゲーム(C++)
 /*
+ * Product: 漢字ゲーム
  * Author: VvyLw
- * Original: KIRIGIRISU
+ * Original: Anonymous
  */
 #include <iostream>
 #include <fstream>
