@@ -5,6 +5,7 @@
  */
 #include <iostream>
 #include <fstream>
+#include <cassert>
 #include <vector>
 #include <random>
 #include <algorithm>
@@ -25,6 +26,7 @@ int main() {
         std::getline(out, s);
         ans.emplace_back(s);
     }
+    assert(quiz.size() == ans.size());
     const int cnt = 5;
     std::vector<int> id(quiz.size()), rnd_id;
     std::iota(id.begin(), id.end(), 0);
