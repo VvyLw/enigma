@@ -20,9 +20,9 @@ const generate = () => {
     }
     rand = [];
     for(let i = 0; i < parseInt(people); ++i) {
-        const id = Math.floor(Math.random() * num.length);
-        rand.push(num[id]);
-        num.splice(id, 1);
+        const j = Math.floor(Math.random() * num.length);
+        rand.push(num[j]);
+        num.splice(j, 1);
     }
     id = 0;
     show();
