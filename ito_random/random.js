@@ -25,8 +25,8 @@ const generate = () => {
 
 const show = () => {
     const htmlRand = document.getElementById('result');
-    htmlRand.innerHTML = `あなたの数字はこちら: ${rand[id]}<br>確認できたら「確認ボタン」を押し、次の人へ渡してください`;
-    if (id < rand.length - 1) {
+    htmlRand.innerHTML = `あなたの数字はこちら: ${rand[id]}<br>確認できたら「確認」を押し、次の人へ渡してください`;
+    if(id < rand.length - 1) {
         document.getElementById('confirm').style.display = 'block';
     } else {
         document.getElementById('confirm').style.display = 'none';
